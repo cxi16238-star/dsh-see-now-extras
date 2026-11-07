@@ -44,10 +44,11 @@
 dsh plugin --profile <你的 profile> add dsh-see-now
 ```
 
-**1. 装补丁包**：
+**1. 下载并装补丁包**：到 [Releases](https://github.com/cxi16238-star/dsh-see-now-extras/releases/latest) 下载
+`dsh-see-now-extras-0.1.10.tgz`，然后
 
 ```bash
-dsh plugin --profile <你的 profile> add /路径/dsh-see-now-extras-0.1.10.tgz
+dsh plugin --profile <你的 profile> add /下载目录/dsh-see-now-extras-0.1.10.tgz
 ```
 
 （`dsh plugin` 的参数是原样转给 pnpm 的，所以本地 tgz、npm 包名、目录路径都行。）
