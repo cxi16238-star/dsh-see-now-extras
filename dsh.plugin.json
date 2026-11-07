@@ -1,0 +1,11 @@
+{
+  "name": "dsh-see-now-extras",
+  "description": "Patch for dsh-see-now: bind the floating window to one session, a custom 1-3 key hotkey to start/stop watching, stop on DSH focus, and optional auto-resume.",
+  "version": "0.1.0",
+  "entry": {
+    "name": "dsh-see-now-extras",
+    "inject": [
+      "tools"
+    ]
+  }
+}

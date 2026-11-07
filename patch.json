@@ -1,0 +1,61 @@
+{
+  "target": "dsh-see-now",
+  "baseVersion": "0.2.0",
+  "builtFor": "dsh-see-now@0.2.0",
+  "replace": [
+    {
+      "path": "client.js",
+      "upstreamSha256": "d362e949d122a731f93d06211bb35461e24f0d829a63865d6c67b9913b52598d",
+      "payloadSha256": "d7c6981449b3761006f0ee33a875373eb3e1d22330378f474187f881d01cede1"
+    },
+    {
+      "path": "src/index.js",
+      "upstreamSha256": "3fb2435bc7921bb555360bfd80bf1b5e474897f1ad468686a48dcc3f662ffbce",
+      "payloadSha256": "d891dd0f5a61a2a9edbe478b8472a5491c9d5d1cef07e4c8a96169d4545b0c68"
+    },
+    {
+      "path": "src/tuning.js",
+      "upstreamSha256": "9d8812e4e7ef9bfae4cc6ebac022139aa53121f2164174d33f2a07bdae3c965c",
+      "payloadSha256": "9f689646cedd1bdef68ba5666b1509c4c7df1854bc5c8d66456251e372c542e6"
+    },
+    {
+      "path": "src/settings-api.mjs",
+      "upstreamSha256": "30a6274f3c7630db9ff397cf952e5896ed12aa85c1d11c29b3f473ffcc18cd20",
+      "payloadSha256": "77185e5a08e96730ea186b3ab8187e98841f5b74b6c29b07769a8cb52d87bd82"
+    },
+    {
+      "path": "src/window.js",
+      "upstreamSha256": "98013a214ce35dccfb43f4ee8dacafbed47c2676e75362744b92da2b38824028",
+      "payloadSha256": "5746df407209140482f147c3cb7c924363489ec7ec2f8241aae127ca32c773e1"
+    },
+    {
+      "path": "src/chat.js",
+      "upstreamSha256": "3e32a33cf155e848d55756ba8d4007bf95789485288c0fe3806bf8918d2bd33a",
+      "payloadSha256": "ce15dbe3678a55b4c005398cc95a07baafa25e3892b9ed3d8235d8f6f65ccbab"
+    },
+    {
+      "path": "src/loop.js",
+      "upstreamSha256": "90ca5d4ec2f5d519024fd1b6ca6c94be7a4ef1c6eea1e17045030e2579e5a323",
+      "payloadSha256": "9a64f725bdce5ff4b72e7536b7536cdedead9fdf00d139b5586a3192e74789e6"
+    },
+    {
+      "path": "examples/floating-chat/window.py",
+      "upstreamSha256": "a6261c3d4b954b051b6738f740d5bc541b2f44e8ca7d244f50a7729f28e579a4",
+      "payloadSha256": "231af1f5234bcf2f01e601d44a2c451ebfbe48a778c2530703357ca9b9f48e26"
+    }
+  ],
+  "add": [
+    {
+      "path": "src/hotkeys.js",
+      "payloadSha256": "a27952aacb6af6c20a280c929371f962db241ed73cb08fb3e73a6245d2f36fd8"
+    },
+    {
+      "path": "src/companion.js",
+      "payloadSha256": "b9048de156926fb80178f91ef82c3c73cd48c79fe3c32d8139c266fd7a520c99"
+    },
+    {
+      "path": "examples/floating-chat/companion.py",
+      "payloadSha256": "848727a1fae648ec74d208317b798961cbe6c5ab06d645f3151910c07cd08c36"
+    }
+  ]
+}
